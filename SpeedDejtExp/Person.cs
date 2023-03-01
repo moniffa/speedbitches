@@ -39,7 +39,7 @@ namespace SpeedDejtExp
                     $"med fler roliga människor som dig. " +
                     $"Håll utkik på vår instagram inför nästa event. " +
                     $"Vi hoppas verkligen att vi ser dig igen!" +
-                    $" Trevlig kväll!";
+                    $" Trevlig kväll!\n";
             }
             else
             {
@@ -48,7 +48,7 @@ namespace SpeedDejtExp
                     $"Du matchade med {string.Join(", ", Matches.Select(person => person.Instagram))}. " +
                     $"Nästa steg är upp till er och vi lämnar över ansvaret på er. " +
                     $"Hoppas detta blir en perfekt matchning," +
-                    $" annars är du alltid välkommen tillbaka till vårt nästa event!";
+                    $" annars är du alltid välkommen tillbaka till vårt nästa event!\n";
             }
 
 

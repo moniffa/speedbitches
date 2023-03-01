@@ -10,14 +10,14 @@
 
             ReadFile();
             GenerateMatches();
-            ShowMatches();
-            PrintText();
+            //ShowMatches();
+            //PrintText();
             WriteToFile();
         }
 
         private static void WriteToFile()
         {
-            File.WriteAllLines(@"C:\Users\MoniraWarsame\Documents\Speed\SpeedDejtExp\Resultat.txt", People.Select(person => person.GetDescription()));
+            File.WriteAllLines(@"C:\Users\monira_warsame\source\repos\speedbitches\Resultat.txt", People.Select(person => person.GetDescription()));
         }
 
         private static void PrintText()
@@ -49,7 +49,7 @@
 
         static void ReadFile()
         {
-            var fileLines = File.ReadLines(@"C:\Users\MoniraWarsame\Documents\Speed\SpeedDejtExp\anmalan.tsv").ToList();
+            var fileLines = File.ReadLines(@"C:\Users\monira_warsame\source\repos\speedbitches\anmalan.tsv").ToList();
             for (int i = 1; i < fileLines.Count; i++)
             {
                 var personString = fileLines[i].Split('\t');

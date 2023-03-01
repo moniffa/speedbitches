@@ -5,6 +5,9 @@
 
 # specific user file
 anmalan.tsv
+resultat.txt
+*.tsv
+*.txt
 
 # User-specific files
 *.rsuser
